@@ -3,7 +3,7 @@ A lightweight timelapse setup for the Elegoo Saturn 4 using a Raspberry Pi 4B, A
 
 # Project Documentation: Arducam 64MP Timelapse Monitor
 
-This project provides a robust, button-triggered, high-resolution timelapse capture system for the **Arducam 64MP Hawkeye** sensor, managed via **PM2** for 24/7 reliability on Raspberry Pi.
+This project provides a phototransistor triggered timelapse capture system using the **Arducam 64MP Hawkeye** sensor, managed via **PM2** for 24/7 reliability on Raspberry Pi.
 
 ---
 
