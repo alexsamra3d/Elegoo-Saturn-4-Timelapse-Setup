@@ -25,7 +25,7 @@ from gpiozero import Button
 from signal import pause
 
 # --- Configuration ---
-BASE_PATH = "/home/alex/pictures"
+BASE_PATH = "YOUR_PATH_HERE"
 last_capture_time = 0
 current_subfolder = ""
 
