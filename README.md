@@ -1,4 +1,4 @@
-# Elegoo-Saturn-4-Timelapse-Setup
+# Elegoo-Saturn-4-Timelapse-Setup-with-Arducam-Hawkeye-64MP
 # Project Documentation: Arducam 64MP Timelapse Monitor
 
 This project provides a high-resolution timelapse capture system for the **Arducam 64MP Hawkeye** sensor, managed via **PM2** for 24/7 reliability on Raspberry Pi.
