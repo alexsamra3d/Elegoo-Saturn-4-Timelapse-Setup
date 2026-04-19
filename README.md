@@ -8,7 +8,7 @@ This project provides a phototransistor triggered timelapse capture system using
 ---
 
 ## 1. System Overview
-The system uses a Raspberry Pi (running Raspberry Pi OS) coupled with the Arducam 64MP sensor. It captures full-resolution ($9152 \times 6944$) images when a physical button is pressed. To ensure organized storage, the system automatically creates time-stamped subdirectories if the interval between captures exceeds 5 minutes.
+The system uses a Raspberry Pi (running Raspberry Pi OS) coupled with the Arducam 64MP sensor. It captures full-resolution ($9152 \times 6944$) images when a digital signal is received from the phototransistor. To ensure organized storage, the system automatically creates time-stamped subdirectories if the interval between captures exceeds 5 minutes.
 
 
 
