@@ -98,13 +98,4 @@ PM2 ensures the script runs in the background and restarts automatically.
 * **Start:** `pm2 start ~/scripts/timelapse.py --interpreter python3 --name "timelapse-monitor"`
 * **Startup/Save:** `pm2 save && pm2 startup`
 
----
-
-## 5. Maintenance & Troubleshooting
-* **Permission Issues:** If failing to save, run:
-    `sudo chown -R $USER:$USER /home/alex/pictures && chmod 775 /home/alex/pictures`
-* **Driver Failure:** If `rpicam-still --list-cameras` fails, re-run the `install_pivariety_pkgs.sh` script.
-* **Disk Space:** Periodically move older folders from `/home/alex/pictures` to external storage to avoid SD card exhaustion.
-
----
 
