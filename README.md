@@ -45,7 +45,7 @@ import subprocess
 import os
 
 # Config
-BASE_PATH = "home/alex/Pictures"
+BASE_PATH = "YOUR/PATH/HERE"
 last_capture_time = 0
 current_subfolder = ""
 
