@@ -12,7 +12,7 @@ The system uses a Raspberry Pi coupled with the Arducam 64MP sensor. It captures
 ---
 
 ## 2. Prerequisites & Driver Installation
-Because the Arducam 64MP Hawkeye uses a custom "Pivariety" driver rather than standard upstream kernel support, you must perform these setup steps. **Note:** Major system updates (`sudo apt upgrade`) may overwrite these drivers; keep these steps on hand for maintenance.
+Because the Arducam 64MP Hawkeye uses a custom "Pivariety" driver rather than standard upstream kernel support, you must perform these setup steps. **Note:** Major system updates (`sudo apt upgrade`) may overwrite these drivers.
 
 ### A. Driver Installation
 1.  **Download:** `wget -O install_pivariety_pkgs.sh https://github.com/ArduCAM/Arducam-Pivariety-V4L2-Driver/releases/download/install_script/install_pivariety_pkgs.sh`
