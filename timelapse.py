@@ -5,7 +5,7 @@ import subprocess
 import os
 
 # Config
-BASE_PATH = "home/alex/Pictures"
+BASE_PATH = "YOUR/PATH/HERE"
 last_capture_time = 0
 current_subfolder = ""
 
@@ -18,16 +18,17 @@ def get_new_folder():
 def capture():
 	global last_capture_time, current_subfolder
 	now = time.time() * 1000
+
 	if (now - last_capture_time) > 300000 or not current_subfolder:
 		print("Pause detected or first capture. Creating new folder...")
 		current_subfolder = get_new_folder()
 
 	last_capture_time = now
-	
-	img_hash = int(round(now))
-	image_path = os.path.join(current_subfolder, f'/home/alex/Pictures/image_{img_hash}.jpg')
+	image_path = os.path.join(current_subfolder, f'image_{int(round(now))}.jpg')
+
 	print (f"Focusing and capturing to {image_path}...")
-	cmd = [
+
+cmd = [
 		"rpicam-still",
 		"-t", "2000",
 		"--width", "9152",
@@ -37,9 +38,11 @@ def capture():
 		"--nopreview",
 		"-o", image_path
 	]
+
 	try:
 		subprocess.run(cmd, check=True)
 		print(f'Image captured: {current_time}')
+
 	except subprocess.CalledProcessError as e:
 		print(f"Failed to cpature image: {e}")
 
