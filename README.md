@@ -1,4 +1,4 @@
-# Project Documentation: Arducam 64MP Timelapse Monitor
+# Arducam 64MP Timelapse Monitor
 
 This project is an updated version of [Ryan Gill's solution](https://www.hackster.io/ryanjgill2/msla-smooth-time-lapse-199d87) for resin 3D printer timelapses. This particular project describes a high-resolution timelapse capture system for the **Arducam 64MP Hawkeye** sensor, managed via **PM2** for 24/7 uptime.
 
