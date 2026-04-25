@@ -1,6 +1,6 @@
 # Project Documentation: Arducam 64MP Timelapse Monitor
 
-This project provides a high-resolution timelapse capture system for the **Arducam 64MP Hawkeye** sensor, managed via **PM2** for 24/7 reliability on Raspberry Pi.
+This project is an updated version of Ryan Gill's solution for resin 3D printer timelapses. This particular project describes a high-resolution timelapse capture system for the **Arducam 64MP Hawkeye** sensor, managed via **PM2** for 24/7 uptime.
 
 ---
 
