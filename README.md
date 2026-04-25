@@ -83,7 +83,7 @@ cmd = [
 		print(f'Image captured: {current_time}')
 
 	except subprocess.CalledProcessError as e:
-		print(f"Failed to cpature image: {e}")
+		print(f"Failed to capture image: {e}")
 
 button = Button(14)
 button.when_pressed = capture
